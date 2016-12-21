@@ -1,5 +1,5 @@
 <?php
-    header("Access-Control-Allow-Origin", "*");  
+    header("Access-Control-Allow-Origin","*");  
     $username=$_POST['username'];
     $password=$_POST['password'];//根据不同的方法，php会把接收的数据储存在$_POST/$_GET这样的全局变量中，前面的ajax我们用的是post方法，所以这里用$_POST接收数据
     //console.log("233")
